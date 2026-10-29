@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Bhagwan Misal – Software Tester</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="bg" aria-hidden="true"></canvas>
+    <div id="bar"></div>
+    <header class="top">
+        <div class="bar2">
+            <a class="logo" href="#top" aria-label="Home"><span>&lt;/&gt;</span>BM</a>
+            <nav aria-label="Main"><a href="#testing">Testing</a><a href="#skills">Skills</a><a
+                    href="#projects">Projects</a><a href="#experience">Experience</a><a
+                    href="#education">Education</a><a href="#contact">Contact</a></nav>
+            <button id="theme" type="button" aria-label="Switch to dark theme"><span id="ti"
+                    aria-hidden="true">☾</span></button>
+        </div>
+    </header>
+
+    <main id="top">
+        <div class="hero">
+            <div class="blob b1"></div>
+            <div class="blob b2"></div>
+            <div class="wrap">
+                <div>
+                    <span class="pill"><b>●</b> Open to entry-level testing roles</span>
+                    <h1>Bhagwan Misal<br><span class="g">Software Tester</span></h1>
+                    <div class="type" id="type" aria-live="off"></div>
+                    <p class="lede">Software tester from Pune. I design clear test cases, run functional, smoke, sanity
+                        and
+                        regression tests, and write defect reports developers can act on. Now growing into automation
+                        with Java and
+                        Selenium.</p>
+                    <div class="btns"><a class="btn p" href="#projects">View my testing work</a><a class="btn"
+                            href="#contact">Contact me</a></div>
+                </div>
+                <div class="portrait" id="pt">
+                    <div class="frame"><img src="/Photo.png" alt="Portrait of Bhagwan Misal" width="640"
+                            height="800"><span class="shine"></span></div>
+                    <div class="badge"><b>Bhagwan Misal</b><span>Software Tester · Pune</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrap">
+            <div class="stats rv">
+                <div class="stat"><b data-n="2">0</b><span>Projects tested</span></div>
+                <div class="stat"><b data-n="6" data-s=" mo">0</b><span>Testing internship</span></div>
+                <div class="stat"><b data-n="4">0</b><span>Testing techniques</span></div>
+                <div class="stat"><b data-n="8.83" data-d="2">0</b><span>M.Sc. CS CGPA</span></div>
+            </div>
+
+            <section id="testing">
+                <div class="sh rv">
+                    <h2>How I test</h2>
+                    <p>A sample test run, similar to the cases I design and execute.</p>
+                </div>
+                <div class="rv" style="max-width:680px">
+                    <div class="term" id="term" aria-label="Sample test run">
+                        <div class="dots"><i></i><i></i><i></i><span id="count">sample suite</span></div>
+                        <div class="prog">
+                            <div id="pg"></div>
+                        </div>
+                        <ul id="tests"></ul>
+                        <footer><small>Sample cases, like the ones I write.</small><button class="btn" id="go"
+                                type="button">Run
+                                again</button></footer>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="sh rv">
+                    <h2>Skills &amp; tools</h2>
+                    <p>What I use to plan, run and report tests.</p>
+                </div>
+                <div class="cards">
+                    <div class="card rv">
+                        <h3>Testing types</h3>
+                        <ul class="tags">
+                            <li>Manual testing</li>
+                            <li>Automation (basic)</li>
+                        </ul>
+                    </div>
+                    <div class="card rv">
+                        <h3>Techniques</h3>
+                        <ul class="tags">
+                            <li>Functional</li>
+                            <li>Smoke</li>
+                            <li>Sanity</li>
+                            <li>Regression</li>
+                        </ul>
+                    </div>
+                    <div class="card rv">
+                        <h3>Test activities</h3>
+                        <ul class="tags">
+                            <li>Test case design</li>
+                            <li>Test execution</li>
+                            <li>Defect reporting</li>
+                        </ul>
+                    </div>
+                    <div class="card rv">
+                        <h3>Tools</h3>
+                        <ul class="tags">
+                            <li>TestRail</li>
+                            <li>Selenium (basic)</li>
+                            <li>MS Excel</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+                    <div class="card rv">
+                        <h3>Programming</h3>
+                        <ul class="tags">
+                            <li>Java</li>
+                            <li>SQL</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="card rv">
+                        <h3>Working style</h3>
+                        <ul class="tags">
+                            <li>Team collaboration</li>
+                            <li>Time management</li>
+                            <li>Logical thinking</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <div class="sh rv">
+                    <h2>Projects I've tested</h2>
+                    <p>Two web applications, tested end to end.</p>
+                </div>
+                <div class="proj">
+                    <article class="card tilt rv">
+                        <span class="tag">Manual testing project</span>
+                        <h3>Mind Metrics</h3>
+                        <p class="sub">Online aptitude assessment platform</p>
+                        <ul class="l">
+                            <li>Tested the Login, Registration, and Question &amp; Answer modules end to end.</li>
+                            <li>Wrote test scenarios and cases with positive and negative paths.</li>
+                            <li>Ran functional, smoke, sanity, and regression testing.</li>
+                            <li>Reported defects in authentication, validation, and test flow.</li>
+                        </ul>
+                        <ul class="tags">
+                            <li>Functional</li>
+                            <li>Smoke</li>
+                            <li>Sanity</li>
+                            <li>Regression</li>
+                        </ul>
+                    </article>
+                    <article class="card tilt rv">
+                        <span class="tag">Academic project</span>
+                        <h3>EventPro</h3>
+                        <p class="sub">Web-based event management system</p>
+                        <ul class="l">
+                            <li>Validated User Registration, Login, Event Creation, Booking, and Scheduling.</li>
+                            <li>Ran functional and UI testing for a smooth user experience.</li>
+                            <li>Wrote test cases and reported data and UI defects.</li>
+                        </ul>
+                        <ul class="tags">
+                            <li>Functional</li>
+                            <li>UI testing</li>
+                            <li>Defect reporting</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section id="experience">
+                <div class="sh rv">
+                    <h2>Experience</h2>
+                </div>
+                <div class="tl rv" id="tl"><span class="dot"></span>
+                    <span class="when">Dec 2024 – May 2025</span>
+                    <h3>Software Testing Intern</h3>
+                    <p>Cravita Technologies India Pvt. Ltd.</p>
+                    <ul>
+                        <li>Tested a live company website for functionality and usability.</li>
+                        <li>Designed and ran functional, UI, and usability test cases.</li>
+                        <li>Logged and tracked defects in layout, navigation, and form validation.</li>
+                        <li>Kept test cases and defect reports in MS Excel.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="education">
+                <div class="sh rv">
+                    <h2>Education</h2>
+                </div>
+                <div class="edu">
+                    <div class="card rv"><b>M.Sc. Computer Science</b><span>Mamasaheb Mohol College, Pune<br>June 2024 –
+                            July
+                            2026</span><em>CGPA 8.83</em></div>
+                    <div class="card rv"><b>BCS, Computer Science</b><span>R. B. Narayanrao Borawake College,
+                            Shrirampur<br>2021 –
+                            2024</span><em>CGPA 7.73</em></div>
+                    <div class="card rv"><b>HSC (Science)</b><span>Vakilrao Langhe Patil Vidyalay, Shirasgaon<br>2020 –
+                            2021</span><em>74%</em></div>
+                    <div class="card rv"><b>SSC</b><span>Vakilrao Langhe Patil Vidyalay, Shirasgaon<br>2018 –
+                            2019</span><em>66%</em></div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="contact rv">
+                    <div class="blob b2" style="top:-8rem;left:-6rem;right:auto;bottom:auto"></div>
+                    <h2>Let's work together</h2>
+                    <p>I'm looking for an entry-level software testing role where I can grow into automation. Send me a
+                        message.
+                    </p>
+                    <div class="btns"><a class="btn p" href="mailto:bhagwanmisal62004@gmail.com">Email me</a><a
+                            class="btn" href="tel:+918668546880">+91 86685 46880</a><a class="btn"
+                            href="https://www.linkedin.com/in/bhagwan-misal/">LinkedIn</a><a class="btn"
+                            href="https://github.com/bhagwan-misal">GitHub</a></div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="site">© Bhagwan Misal · Pune, Maharashtra</footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
